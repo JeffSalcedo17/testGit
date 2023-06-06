@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="regression_web_page">
+    <test name="all">
+        <groups>
+            <run>
+                <exclude name="Sprint 10"></exclude>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.unosquare.AppTest"/>
+            <class name="com.unosquare.OrderTest"/>
+        </classes>
+    </test>
+</suite> <!-- Suite -->
